@@ -1,0 +1,244 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'JetBrains Mono', monospace;
+}
+
+header{
+    width: 100%;
+    position: relative;
+}
+
+header nav{
+    width: 100%;
+    background: #014937;
+    /* padding-left: 120px;
+    padding-right: 120px;*/
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 14px 0;
+}
+
+header nav ul{
+    display: flex;
+
+}
+
+header nav ul li{
+    list-style: none;
+    margin: 0 10px;
+}
+
+header li a{
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-bottom: 2px solid transparent;
+    border-top: 2px solid transparent;
+    transition: .5s;
+}
+
+header li a:hover{
+    border-bottom: 2px solid white;
+    border-top: 2px solid white;
+}
+
+header a.logo{
+    color: #fff;
+    text-decoration: none;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+header #hero{
+    width: 100%;
+    height: 80vh;
+    text-align: center;
+    background: url("../img/interior-hormigon-grunge-3d-focos.jpg");
+    background-size: cover;
+}
+
+header #hero h1{
+ padding-top: 300px;
+ color: #fff;
+ font-size: 40px;
+}
+
+header #hero h3{
+    padding-top: 20px;
+    color: #fff;
+    font-size: 30px;
+    }
+
+header #hero p{
+   padding-top: 20px;
+   color: #fff;
+   font-size: 20px;
+   padding-left: 600px;
+   padding-right: 600px;
+   margin-bottom: 50px;
+   font-size: 20px;
+    padding-left: 150px;
+    padding-right: 150px;
+
+   }
+
+header #hero a { 
+    text-decoration: none;
+    color: #000;
+    background: #fff;
+    padding: 10px 40px;
+    display: flex;
+    align-items: center;
+    max-width: 120px;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+header #hero a img{
+    margin-right: 10px;
+}
+
+
+main{
+    width: 100%;
+    position: relative;
+}
+
+#about {
+    width: 100%;
+    position: relative;
+    padding: 100px;
+}
+
+#about .fila{
+    display: flex;
+    max-width: 60%;
+    margin: 0 auto;
+}
+
+#about .fila img{
+    width: 500px;
+    transition: .5s;
+}
+
+#about .fila img:hover{
+    border-radius: 30px;
+    transform: scale(1.1);
+}
+
+#about .fila .cont-info{
+    padding-left: 40px;
+    padding-top: 60px;
+}
+
+#about h2{
+    color: #000;
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+
+
+#services{
+    width: 100%;
+    position: relative;
+    padding: 120px 0;
+    background: url(../img/v627-aew-01-technologybackground.jpg);
+    background-size: cover;
+    text-align: center;
+}
+
+#services h2{
+    color: white;
+    font-size: 40px;
+    margin-bottom: 60px;
+}
+
+#services .fila{
+    display: flex;
+    justify-content: space-between;
+    max-width: 70%;
+    margin: 0 auto;
+}
+
+#services .fila .card{
+    width: 30%;
+    text-align: center;
+    background: #ffffff82;
+    padding: 30px;
+    border-radius: 30px;
+    margin: 10px;
+    transition: .5s;
+}
+
+#services .fila .card:hover{
+    background: #ffffff;
+    border-radius: 0;
+    transform: translateY(-30px);
+}
+
+/* #services .fila .card:hover h3,
+#services .fila .card:hover p{
+    color: white;
+} */
+
+
+#services .card h3{
+    font-size: 28px;
+    color: black;
+    margin-bottom: 20px;
+}
+
+#services .card p{
+    font-size: 18px;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+
+#services .card a{
+    background: black;
+    color: white;
+    text-decoration: none;
+    padding: 10px 30px;
+}
+
+#video{
+    width: 100%;
+    position: relative;
+    padding: 120px 0;
+    text-align: center;
+}
+
+#video h2{
+    font-size: 40px;
+    margin-bottom: 40px;
+}
+
+#video .cont-video{
+    width: 60%;
+    height: 450px;
+    margin: 0 auto;
+}
+
+footer{
+    width: 100%;
+    text-align: center;
+    padding: 40px 0;
+    background: black;
+    color: rgb(255, 255, 255);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
